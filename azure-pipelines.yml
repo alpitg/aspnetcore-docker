@@ -32,4 +32,4 @@ steps:
     docker push $(dockerId)/$(imageName)
   displayName: 'docker build - push'
   env:
-    pswd: $(DOCKER_PASSWORD)   
+    pswd: $(dockerPassword)   
