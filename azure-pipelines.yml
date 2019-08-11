@@ -11,6 +11,7 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
+  buildArtifactstagingDirectory: 'Release'
 
 steps:
 - script: dotnet restore
@@ -18,3 +19,6 @@ steps:
 
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
+
+- script: dotnet publish --configuration $(buildConfiguration) --output &(buildArtifactstagingDirectory)
+  displayName: 'dotnet publish to $(buildArtifactstagingDirectory) folder'
