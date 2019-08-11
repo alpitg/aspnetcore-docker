@@ -12,6 +12,9 @@ pool:
 variables:
   buildConfiguration: 'Release'
   buildArtifactstagingDirectory: 'outputfolder'
+  dockerId: docker.io
+  imageName: alpitg/aspnetcore-repo:v1.0.0
+
 
 steps:
 - script: dotnet restore
@@ -22,3 +25,10 @@ steps:
 
 - script: dotnet publish --configuration $(buildConfiguration) --output $(buildArtifactstagingDirectory)
   displayName: 'dotnet publish to $(buildArtifactstagingDirectory) folder'
+
+- script: |
+    docker build -t $(dockerId)/$(imageName) .
+    docker login -u $(dockerId) -p $(pswd)
+    docker push $(dockerId)/$(imageName)
+  env:
+    pswd: $(DOCKER_PASSWORD)   
