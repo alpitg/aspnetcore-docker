@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "g:\\Personal\\azure-docker\\AspNetCoreOnDocker\\AspNetCoreOnDocker.csproj": {}
+    "D:\\Professional\\Personal\\aspnetcore-docker\\AspNetCoreOnDocker.csproj": {}
   },
   "projects": {
-    "g:\\Personal\\azure-docker\\AspNetCoreOnDocker\\AspNetCoreOnDocker.csproj": {
+    "D:\\Professional\\Personal\\aspnetcore-docker\\AspNetCoreOnDocker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\Personal\\azure-docker\\AspNetCoreOnDocker\\AspNetCoreOnDocker.csproj",
+        "projectUniqueName": "D:\\Professional\\Personal\\aspnetcore-docker\\AspNetCoreOnDocker.csproj",
         "projectName": "AspNetCoreOnDocker",
-        "projectPath": "g:\\Personal\\azure-docker\\AspNetCoreOnDocker\\AspNetCoreOnDocker.csproj",
+        "projectPath": "D:\\Professional\\Personal\\aspnetcore-docker\\AspNetCoreOnDocker.csproj",
         "packagesPath": "C:\\Users\\Googli\\.nuget\\packages\\",
-        "outputPath": "g:\\Personal\\azure-docker\\AspNetCoreOnDocker\\obj\\",
+        "outputPath": "D:\\Professional\\Personal\\aspnetcore-docker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Googli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Googli\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
