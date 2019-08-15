@@ -1,2 +1,6 @@
 obj
 bin
+obj/AspNetCoreOnDocker.csproj.nuget.cache
+obj/AspNetCoreOnDocker.csproj.nuget.dgspec.json
+obj/Debug/netcoreapp2.2/AspNetCoreOnDocker.assets.cache
+obj/Debug/netcoreapp2.2/AspNetCoreOnDocker.Views.dll
